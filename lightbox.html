@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>图片插件</title>
+	<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+	<script src = "lightbox.js"></script>
+	<link rel="stylesheet" href="lightbox.css">
+</head>
+<body>
+	<h1>1组图片</h1>
+	<div>
+		<img src="images/1-1.jpg" alt="" width="100" height="100" class="js-lightbox" data-role="lightbox" data-source="images/1-1.jpg" data-group="group-1" data-id="a" data-caption="biaoti1">
+		<img src="images/2-3.jpg" alt="" width="100" height="100" class="js-lightbox" data-role="lightbox" data-source="images/2-3.jpg" data-group="group-1" data-id="b" data-caption="biaoti2">
+		<img src="images/2-2.jpg" alt="" width="100" height="100" class="js-lightbox" data-role="lightbox" data-source="images/2-2.jpg" data-group="group-1" data-id="c" data-caption="biaoti3">
+	</div>
+	<h1>2组图片</h1>
+	<div>
+		<img src="images/2-2.jpg" alt="" width="100" height="100" class="js-lightbox" data-role="lightbox" data-source="images/2-2.jpg" data-group="group-2" data-id="d" data-caption="biaoti4">
+	</div>
+	<!-- <div id="lightbox-mask"></div>
+	<div id="lightbox-popup">
+		<div class="lightbox-pic-view">
+			<span class="lightbox-btn lightbox-prev-btn lightbox-prev-btn-show"></span>
+			<img src="images/2-2.jpg" alt="" class="lightbox-image">
+			<span class="lightbox-btn lightbox-next-btn lightbox-next-btn-show"></span>
+		</div>
+		<div class="lightbox-pix-caption">
+			<div class="lightbox-caption-area">
+				<p class="lightbox-pic-desc">图片标题</p>
+				<span class="lightbox-of-index">当前索引</span>
+			</div>
+			<span class="lightbox-close-btn"></span>
+		</div>
+
+	</div> -->
+
+</body>
+</html>
+<script>
+$(function(){
+	var lightbox = new Lightbox({
+		speed:100,
+		maxWidth:900,
+		maxHeight:600
+	})
+})
+</script>
+<!--[if IE 6]><script src="DD_belatedPNG.js"></script><script>  DD_belatedPNG.fix('#lightbox-mask,#lightbox-popup,.lightbox-btn,.lightbox-pic-caption');</script><![endif]-->

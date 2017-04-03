@@ -1,0 +1,36 @@
+/*全局开始*/
+html,body{ height:100%; }
+body{ font-size:100%;font-family: "微软雅黑";background:#f5f5f5;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,blockquote,table,th,td,tr,iframe,a,span{ margin:0;padding:0;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
+h1,h2,h3,h4,h5,h6,b{font-weight:normal;}
+i{font-style:normal;}
+table{ border-collapse:collapse; border-spacing:0; }
+img{ border:0; }
+li{ list-style:none; }
+input{ border:none;-webkit-appearance:none;outline:none;}
+a,a:hover, a:visited, a:link, a:active { text-decoration: none;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
+.fl{float:left;}
+.fr{float:right;}
+.clearfix:after{content:'';display:block;height:0;overflow:hidden;clear:both;}
+.clearfix{*zoom:1;}
+#lightbox-mask{position:fixed;left:0;right:0;top:0;bottom:0;background-color:#000;opacity: 0.5;filter:alpha(opacity=50%);z-index:10000;display: none;background:url(icon/opacity.png) repeat left top;}
+*html #lightbox-mask{position:absolute;}
+#lightbox-popup{position:fixed;left:50%;top:50%;width:300px;z-index:10001;overflow:hidden;display: none;}
+*html #lightbox-popup{position:absolute;}
+.lightbox-pic-view{background:url(icon/loading.gif) no-repeat center #fff;position:relative;border:5px solid #fff;border-radius: 3px;overflow: hidden;}
+.lightbox-btn{position:absolute;width:40%;height:100%;z-index:1;top:0;background:url(icon/transparent.png) repeat left top;}
+.lightbox-prev-btn{left:0;}
+.lightbox-next-btn{right:0;}
+.lightbox-prev-btn-show{background:url(icon/prev.png) no-repeat left center;cursor:pointer;}
+.lightbox-next-btn-show{background:url(icon/next.png) no-repeat right center;cursor:pointer;}
+.lightbox-image{display:block;}
+.lightbox-pic-caption{position:relative;margin:-60px 5px 0;background-color:rgba(0,0,0,0.5);bottom:5px;z-index:2;background:url(icon/opacity.png) repeat left top;}
+.lightbox-caption-area{padding:10px 5px;color:#fff;font-size:14px;}
+.lightbox-of-index{color:#999;}
+.lightbox-close-btn{position:absolute;right:10px;top:13px;width:27px;height:27px;background:url(icon/close.png) no-repeat center center;}
+
+
+
+
+
+
